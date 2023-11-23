@@ -1,0 +1,18 @@
++-------------+       +--------------+       +------------+
+|   Alumnos   |       |  Localidad   |       | Provincia  |
++-------------+       +--------------+       +------------+
+| AlumnoID    |       | LocalidadID  |       | ProvinciaID|
+| Nombre      |       | NombreLocal. |       | NombreProv.|
+| Apellido    |       | ProvinciaID  |       +------------+
+| LocalidadID | ----> |              |
++-------------+       +--------------+
+
++--------------+
+|  Direccion   |
++--------------+
+| DireccionID  |
+| AlumnoID     | ----> AlumnoID
+| Calle        |
+| Numero       |
+| CodigoPostal |
++--------------+
